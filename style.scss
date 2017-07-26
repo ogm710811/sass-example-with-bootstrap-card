@@ -1,0 +1,27 @@
+/* SASS Rules go here*/
+@import './reset';
+@import './_variables';
+
+body {
+  width: 100%;
+}
+.card {
+  border: solid $company-color 5px;
+  margin: 100px auto 0;
+  width:  40%;
+}
+.card-block {
+  background: $company-color;
+  height:     280px;
+  margin:     20px auto;
+  width:      90%;
+}
+ul {
+  li {
+    color: red;
+    a {
+      color: yellow;
+      text-decoration: none;
+    }
+  }
+}    
